@@ -57,6 +57,16 @@ dev`--this takes advantage of the `npm-run-all` package which was installed.
 the root of the server directory.  The purpose of setting this envar is to avoid
 those ugly relative file resolutions ie. `require('../../../../yuck.js')`
 
+
+## Production
+
+### Building
+
+To build for production, we'll run the following: `npm run build`. The
+aforementioned command will create a production webpack bundle that will uglify
+and minify our source.
+
+
 ## Final Product
 
 ![product cart component](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-cart.jpg?raw=true) ![project running on proxy with all components](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-sc.jpg?raw=true)
