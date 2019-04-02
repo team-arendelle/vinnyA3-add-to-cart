@@ -3,7 +3,7 @@
 > A visual clone of Amazon's product cart.  Complete with multiple buying
 > options and reusable components: tooltip, modal.
 
-![component_hero](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-hero.png?raw=true)
+![component_hero](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-intro.png?raw=true)
 
 
 ## Table of Contents
