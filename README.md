@@ -33,6 +33,16 @@ from within the project's root directory, run: `npm install`
 
 ### Starting the project
 
+First, make sure that you have an *API KEY* for google's geolocation API.  If
+you do not have one / want to make one, make sure to remove / comment out the
+code dependent on the key (located in `server/controllers/api/index.js`).
+
+**[If you are using an API key]**: Make sure that you have a `secret.js` config file
+(should reside in `server/config`).  This file should never be commited to your
+repo; by default, `.gitignore` will ensure that this does not happen 
+
+-----
+
 A design decision was made to keep both client and server code separate from one
 another.  As a result, we run both services as separate processes.  Luckily, the
 client and server are configured to play nice with one another.
@@ -40,7 +50,7 @@ client and server are configured to play nice with one another.
 To run the client: `npm start client:dev`
 To run the server: `npm run server:dev`
 
-**tip**: start both the client and server processes simultaneously with `npm run
+**[Tip]**: start both the client and server processes simultaneously with `npm run
 dev`--this takes advantage of the `npm-run-all` package which was installed.
 
 **[Important Note]**: the server script runs with the `NODE_PATH` envar set to
