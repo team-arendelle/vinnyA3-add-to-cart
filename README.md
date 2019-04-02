@@ -1,12 +1,10 @@
 # FEC - Amazonas - Product Cart
 
-> A visual clone of Amazon's product cart.  Complete with multiple buying options,
-> modals, tooltips ... etc.
+> A visual clone of Amazon's product cart.  Complete with multiple buying
+> options and reusable components: tooltip, modal.
 
-## Related Projects
+![component_hero](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-hero.png?raw=true)
 
-  - Product details summary: [https://github.com/team-arendelle/stephenjmark-product-details-summary](https://github.com/team-arendelle/stephenjmark-product-details-summary)
-  - Reviews: [https://github.com/team-arendelle/RossHathaway-reviews](https://github.com/team-arendelle/RossHathaway-reviews)
 
 ## Table of Contents
 
@@ -38,3 +36,8 @@ From within the project's root directory, run: `npm install`
 
 ![product cart component](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-cart.jpg?raw=true) ![project running on proxy with all components](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-sc.jpg?raw=true)
 
+
+## Team Components 
+
+  - Product Details: [https://github.com/team-arendelle/stephenjmark-product-details-summary](https://github.com/team-arendelle/stephenjmark-product-details-summary)
+  - Reviews: [https://github.com/team-arendelle/RossHathaway-reviews](https://github.com/team-arendelle/RossHathaway-reviews)
