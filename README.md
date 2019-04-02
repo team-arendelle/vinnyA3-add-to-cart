@@ -21,8 +21,8 @@
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node - *>=10.15.0* 
-- npm - *>=6.4.1*
+- Node: *>=10.15.0* 
+- npm: *>=6.4.1*
 
 ## Development
 
