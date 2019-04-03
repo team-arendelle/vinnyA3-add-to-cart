@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CartContext } from 'store/context';
 import styles from './styles.scss';
 import ProtectionModal from './components/protectionModal';
 
@@ -18,15 +19,12 @@ class ProtectionPlan extends Component {
 
   render() {
     const {
+      protectionPlan,
       protectionPlanPricingOptionOne,
       protectionPlanPricingOptionTwo,
-      protectionPlanDesc,
-      productReviewCount,
-      productStars,
-    } = this.props;
+    } = this.context.parentState.product;
 
-    // refactor out inputs into reusable ocmpnents
-    return (
+    return protectionPlan ? (
       <>
         <h4>Add a Protection Plan:</h4>
         <form>
@@ -65,8 +63,11 @@ class ProtectionPlan extends Component {
           product={this.props}
         />
       </>
+    ) : (
+      ''
     );
   }
 }
 
+ProtectionPlan.contextType = CartContext;
 export default ProtectionPlan;

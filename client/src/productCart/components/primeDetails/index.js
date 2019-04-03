@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CartContext } from 'store/context';
 import styles from './styles.scss';
 import Tooltip from 'components/tooltip';
 
@@ -18,7 +19,7 @@ class PrimeDetails extends Component {
   }
 
   render() {
-    return (
+    return this.context.parentState.product.primeEligible ? (
       <div className={styles.details} ref={this.myRef}>
         <p>
           <a href="#" onClick={this.toggleTooltip}>
@@ -44,8 +45,19 @@ class PrimeDetails extends Component {
           </Tooltip>
         </p>
       </div>
+    ) : (
+      <Fragment>
+        <p>
+          <b>&amp; Free Shipping</b>.&nbsp;<a href="#">Details.</a>
+        </p>
+        <p>
+          <b>Want it tomorrow, Feb 13?</b>Order within 22hrs and 2mins and chose{' '}
+          <b>One-Day shipping</b> at checkout. <a href="#">Details.</a>
+        </p>
+      </Fragment>
     );
   }
 }
 
+PrimeDetails.contextType = CartContext;
 export default PrimeDetails;
