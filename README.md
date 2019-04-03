@@ -4,7 +4,7 @@
 > options and reusable components: tooltip, modal.
 
 
-![component_hero](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-intro.png?raw=true)
+![component_hero](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/screenshots/fec-intro.png?raw=true)
 
 
 ## Table of Contents
@@ -69,7 +69,7 @@ and minify our source.
 
 ## Final Product
 
-![product cart component](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-cart.jpg?raw=true) ![project running on proxy with all components](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/fec-sc.jpg?raw=true)
+![product cart component](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/screenshots/fec-cart.jpg?raw=true) ![project running on proxy with all components](https://github.com/team-arendelle/vinnyA3-add-to-cart/blob/master/screenshots/fec-sc.jpg?raw=true)
 
 
 ## Team Components 
