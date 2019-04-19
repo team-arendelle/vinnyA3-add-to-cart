@@ -3,6 +3,7 @@
 }
 
 .protection {
+
   &__description {
     position: relative;
     display: flex;
@@ -17,6 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 0.75rem;
     width: 100%;
     padding: 1em 1.3em;
     background-color: #f1f1f1;
