@@ -6,8 +6,8 @@ import Modal from 'components/modal';
 const ProtectionModal = ({ showModal, onClose, product }) => {
   const {
     productName,
-    productStars,
-    productReviewCount,
+    //    productStars,
+    //   productReviewCount,
     protectionPlanDescription,
   } = product;
 
