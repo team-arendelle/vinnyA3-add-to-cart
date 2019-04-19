@@ -18,8 +18,8 @@ $modal-position: fixed;
 
   &__close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: .5em;
+    right: .3em;
     height: 1.4em; // default height / width -- allow user modification
     width: 1.4em;
     z-index: 300;
