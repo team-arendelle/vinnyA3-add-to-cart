@@ -3,12 +3,14 @@ import styles from './styles.scss';
 import Button from 'components/button';
 import Modal from 'components/modal';
 
-const ProtectionModal = ({
-  showModal,
-  onClose,
-  product
-}) => {
-  const { productStars, productReviewCount, protectionPlanDesc } = product;
+const ProtectionModal = ({ showModal, onClose, product }) => {
+  const {
+    productName,
+    productStars,
+    productReviewCount,
+    protectionPlanDescription,
+  } = product;
+
   return (
     <Modal open={showModal} onClose={onClose}>
       <div className={styles.protection__description}>
