@@ -18,9 +18,9 @@ const ProtectionModal = ({ showModal, onClose, product }) => {
           <h4>Add to your order</h4>
         </div>
         <div className={styles.protection__left}>
-          <h3>{product.product}</h3>
+          <h4>{productName}</h4>
           <div>{`${productStars} (${productReviewCount})`}</div>
-          <p>{protectionPlanDesc}</p>
+          <p>{protectionPlanDescription}</p>
         </div>
         <div className={styles.protection__right}>
           <div className={styles.protection__buttons}>
