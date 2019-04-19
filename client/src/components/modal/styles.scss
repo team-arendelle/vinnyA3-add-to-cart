@@ -9,7 +9,8 @@ $modal-position: fixed;
 
 .modal {
   position: $modal-position;
-  width: 50vw;
+  height: 100vh;
+  width: 100vw;
 
   * {
     @include z-index(modal-content);
@@ -27,9 +28,12 @@ $modal-position: fixed;
   // expand modal content to the height / width of the modal container
   &__content {
     position: absolute;
-    @include position-full;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
+  // overlay
   &::after {
     content: '';
     position: $modal-position;
