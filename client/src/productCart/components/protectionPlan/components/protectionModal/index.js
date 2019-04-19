@@ -19,7 +19,7 @@ const ProtectionModal = ({ showModal, onClose, product }) => {
         </div>
         <div className={styles.protection__left}>
           <h4>{productName}</h4>
-          <div>{`${productStars} (${productReviewCount})`}</div>
+          {/*<div>{`${productStars} (${productReviewCount})`}</div> */}
           <p>{protectionPlanDescription}</p>
         </div>
         <div className={styles.protection__right}>
