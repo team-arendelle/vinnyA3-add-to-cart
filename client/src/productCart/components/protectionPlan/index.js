@@ -60,7 +60,7 @@ class ProtectionPlan extends Component {
         <ProtectionModal
           showModal={this.state.showModal}
           onClose={this.toggleModal}
-          product={this.props}
+          product={this.context.parentState.product}
         />
       </>
     ) : (
