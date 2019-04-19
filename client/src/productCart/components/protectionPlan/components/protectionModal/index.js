@@ -34,7 +34,7 @@ const ProtectionModal = ({ showModal, onClose, product }) => {
         </div>
       </div>
     </Modal>
-  )
+  );
 };
 
 export default ProtectionModal;
